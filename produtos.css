@@ -1,0 +1,116 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+
+ }
+ a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .center {
+    text-align: center;
+ }
+ 
+  .Iphone{
+    font-size: xx-large; 
+    font-family: initial;
+     color:rgb(255, 255, 255)
+ 
+ 
+    }
+ 
+    .Produtos{
+       font-size: xx-large;
+       font-family: initial;
+       color:rgb(255, 255, 255)
+    }
+   
+
+    h1 {
+color: rgb(176, 191, 233);
+
+ }
+
+  img {
+   width: 450px;
+   height: 480px;
+  }
+
+  div img {
+    width: 400  px;
+    height: 500px;
+    
+     }
+    
+     div    {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+   width:auto; 
+     }
+    
+     div a {
+    margin: 30px;
+    text-align: 2px;
+    
+     }
+    
+     .conteiner {
+    padding: 50px 50px;
+    
+     }
+    
+     div a:hover {
+    color:rgb(176, 191, 233);
+    
+     }
+    
+     div a:hover {
+       color:rgb(176, 191, 233);
+       
+        }
+
+
+
+footer img {
+width: 58px;
+height: 40px;
+
+ }
+
+ footer{
+display: flex;
+justify-content:center;
+text-align: center;
+ }
+
+ footer a {
+margin: 50px;
+text-align: 2px;
+
+ }
+
+ .conteiner {
+padding: 0px 50px;
+
+ }
+
+ nav a:hover {
+color:rgb(176, 191, 233);
+
+ }
+
+ footer a:hover {
+   color:rgb(176, 191, 233);
+   
+    }
