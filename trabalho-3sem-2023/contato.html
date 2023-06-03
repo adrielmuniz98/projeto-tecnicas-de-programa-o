@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support Advanced - Contato">
+    <title>Support Advanced - Contato</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="assets/script.js" defer></script>
+
+    <nav class="nav justify-content-center">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="servicos.html">Serviços</a>
+        <a class="nav-link" href="contato.html">Contato</a>
+        <a class="nav-link" href="quem-somos-2.html">Quem Somos</a>
+      </nav>
+
+</head>
+<body>
+    </nav>
+    <div class="container-flex">
+        <div class="title-servicos">
+            <h1 class="h1-contato">Contato</h1>
+        </div>
+    <div class="div-content-contato">
+    <div class="row">
+        <div class='col-lg-4 col-12'>
+            <label for="razao-social" class="label-input">Razão Social</label>
+              <input type="text" class="form-control" id='razao-social' name="Razão Social" placeholder="Razão Social" required>
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="cnpj" class="label-input">CNPJ</label>
+              <input type="number" class="form-control" id="cnpj" name="CNPJ" placeholder="CNPJ" required>
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="inscricao-estadual" class="label-input">Inscrição Estadual</label>
+            <input type="text" class="form-control" id="inscricao-estadual" name="inscricao-estadual" placeholder="Inscrição Estadual">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-4">
+            <label for="CEP" class="label-input">CEP</label>
+              <input type="text" class="form-control" id='cep' name="CEP" placeholder="CEP" required>
+        </div>
+        <div class="col-lg-4 col-4">
+            <label for="endereco" class="label-input">Endereço</label>
+            <input type="text" class="form-control" id='endereco' name="Endereço" placeholder="Endereço" required>
+        </div>
+        <div class="col-lg-2 col-4">
+            <label for="número" class="label-input">Número</label>
+              <input type="text" class="form-control" id="numero" name="Número" placeholder="Número" required>
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="complemento" class="label-input">Complemento</label>
+            <input type="text" class="form-control" name="Complemento" placeholder="complemento">
+        </div>
+    </div>
+    <div class="row">
+        <div class='col-lg-4 col-12'>
+            <label for="bairro" class="label-input">Bairro</label>
+              <input type="text" class="form-control" name="bairro" placeholder="Bairro">
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="cidade" class="label-input">Cidade</label>
+              <input type="text" class="form-control" id='cidade' name="Cidade" placeholder="Cidade" required>
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="Estado" class="label-input">Estado</label>
+            <input type="text" class="form-control" id="estado" name="Estado" placeholder="Estado" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="subtitle-contato">
+                <h2 class="contato-title-2">Dados Pessoais</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-12">
+            <label for="Nome" class="label-input2">Nome</label>
+            <input type="text" class="form-control" id='nome' name="Nome" placeholder="Nome" required>
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="Email" class="label-input2">Email</label>
+            <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required>
+        </div>
+        <div class="col-lg-4 col-12">
+            <label for="Telefone" class="label-input2">Telefone</label>
+            <input type="phone" class="form-control" name="Telefone" placeholder="Telefone">
+        </div>
+    </div>
+    <div class="row m-md-4 p-md-3 m-2">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn button-purple" onclick="sendForm()">Enviar</button>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <a class="btn button-green" href='index.html'>Voltar</a>
+            </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,521 @@
+.nav{
+    background-color: rgba(235, 98, 7, 0.986);
+    font-size: 20px;
+}
+
+.nav-link{
+    color:#1b1818;
+}
+.nav-link:hover{
+    color: grey;
+}
+    .main-title-container {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .main-title {
+        font-family: 'Barlow';
+        /* font-style: normal; */
+        font-weight: 600;
+        font-size: 8vw;
+        line-height: 39%;
+        margin-top: 18vh;
+        margin-left: 10vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #888;
+    }
+
+.second-title-container {
+    width: 100%;
+    top: 25vh;
+    display: flex;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 0vh;
+}
+
+.second-title {
+    margin-left: 45.5vw;
+    font-size: 2.6vw;
+    font-family: 'barlow';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(235, 98, 7, 0.986);
+}
+.saiba-mais:hover {
+    background: rgba(235, 98, 7, 0.986);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.99);
+}
+.saiba-mais {
+    margin-top: -22vh;
+    background:#888;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 50px;
+    padding: 1vw 10vh 1vw 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.container-btn {
+    position: absolute;
+    width: 50vw;
+    height: 5vh;
+    /* left: 2vw; */
+    padding-left: 10vw;
+    top: 80vh;
+}
+
+.home-content {
+    display: flex;
+    background-image: url("background-home.jpg");
+    width: 100%;
+    height: 94.6vh;
+    background-color: #0f0c0c00;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-left {
+    position: relative;
+    
+    width: 48vw;
+    height: 85vh;
+    left: 6vw;
+    top: 15vh;
+    margin-bottom: 2vh;
+    background-color: #000000;
+    padding: 3vh 0 3vh 0;
+}/*até aqui é a navegação do head de cima da pagina index/*/ 
+
+
+body{
+    background-color: #1b1818;
+}/*linha de codigo para o body (navegação do centro da pagina)*/
+
+.nav-style-1 {
+    background-color: grey; 
+}
+
+
+.quem-somos-container {
+position: absolute;
+margin-top: 5vh;
+left: 30vh;
+height: auto;
+    max-width: 43vw;
+    padding: 5vh 1vw 1vh 1vw;
+    background-color: rgba(174, 175, 183, 0.75);
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+.quem-somos-image {
+    background-image: url("quem-somos-bg.jpg");
+    background-color: #0000;
+    height: 85vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+}
+.background-black {
+    background-color: #0000;
+}
+
+
+.title-qs {
+    position: absolute;
+    /* width: 48vw; */
+    height: 20vh;
+    /* left: 120vh; */
+    /* top: 12vh; */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: grey;
+}
+
+.h1-qs {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5em;
+    margin-left: -42vh;
+    text-align: center;
+    margin-top: -5vh;
+
+}
+
+.h1-qs-1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5em;
+    
+}
+
+.div-content-qs {
+    position: absolute;
+    width: 34vw;
+    right: -34px;
+    /* height: 75vh; */
+    top: 18vh;
+    padding: 5vh 2vw 5vh 2vw;
+    background-color: rgba(128, 128, 128, 0.836);
+    border-radius: 20px;
+    display: flex;
+    margin-top: 5vh;
+    margin-right: -10vh;
+}
+
+.qs-text {
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+
+    color: #1b1818;
+}
+
+.qs-text-2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 28px;
+    margin: 4vh 0.5vw 4vh 0.5vw;
+
+
+    /* align-items: center;
+    text-align: center; */
+    color: #000000;
+}
+
+.h1-servicos {
+    color: grey;
+    font-size: 10vh;
+    font-weight: 600;
+    font-family: 'Barlow';
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin-top: 1vh;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1-contato{
+    color: grey;
+    font-size: 10vh;
+    font-weight: 600;
+    font-family: 'Barlow';
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin-top: -9vh;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container-fluid{
+background-image:url(quem-somos-bg.jpg);
+width: 100%;
+    height: 94.6vh;
+    background-color: #0f0c0c00;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-item{
+
+ margin-top: 15vh;
+ text-align: center;
+}
+
+.color-h{
+    margin-top: -0.9vh;
+    color: rgba(255, 98, 0, 0.986);
+    background-color: #1b18186c;
+}
+.color-h3{
+    
+    color: rgb(255, 255, 255);
+    background-color: #1b18186c;
+}
+
+
+
+
+.div-content-contato {
+    margin-top: 10vh;
+    padding: 6vh;
+}
+
+
+.label-input {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1.5vw;
+
+    /* display: flex; */
+    padding: 0.1vw;
+    color: #FEF7F7;
+}
+
+.subtitle-contato {
+    width: 100%;
+    position: relative;
+    /* display: block; */
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5vh;
+    margin-bottom: 0;
+}
+
+.contato-title-2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+
+    color: #FEF7F7;
+}
+
+.label-input2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0.5vh;
+
+    /* display: flex; */
+    padding: 0.2vw;
+    color: #FEF7F7;
+}
+
+.button-purple {
+    background: rgba(235, 98, 7, 0.986);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* align-items: center;
+    text-align: center; */
+
+    color: #000000;
+}
+
+.button-purple:hover {
+    background: rgba(255, 136, 25, 0.986);
+    color: #000000;
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    transform: translateY(-1px);
+}
+
+.button-green {
+    background: grey;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.button-green:hover {
+    background: rgb(160, 160, 160);
+    color: #000000;
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    transform: translateY(-1px);
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+
+    .div-content-contato {
+        margin: 10vh;
+        margin-top: 12vh;
+        padding: 3vh;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+    .div-content-contato {
+        margin: 5vh;
+        margin-top: 12vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 10vh;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+
+
+    .div-content-contato {
+        margin: 2vh;
+        margin-top: 12vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 8vh;
+    }
+
+    .title-servicos {
+        margin-top: 2.5vh;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-title {
+        line-height: 39%;
+        margin-top: 15vh;
+        margin-left: 12vw;
+        left: 0;
+        right: 0;
+    }
+
+    .second-title-container {
+        width: 100%;
+        top: 40vh;
+        position: absolute;
+        margin-top: 5vh;
+    }
+
+    .second-title {
+        margin-left: 12vw;
+        font-size: 3.5vw;
+    }
+
+    .container-btn {
+        position: absolute;
+        width: 50vw;
+        height: 5vh;
+        padding-left: 12vw;
+        top: 55vh;
+    }
+
+    .quem-somos-container {
+        position: absolute;
+        margin-top: 2vh;
+        left: 5vw;
+        height: auto;
+        max-width: 90vw;
+        padding: 0.5vh 1vw 1vh 1vw;
+        background-color: rgba(174, 175, 183, 0.75);
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .h1-qs-1 {
+        font-size: 10vw;
+    }
+
+    .qs-text-2 {
+        font-size: 3.5vw;
+    }
+
+    .div-content-contato {
+        margin: 2vh;
+        margin-top: 10vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 7vh;
+    }
+
+    .title-servicos {
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 427px) {
+
+    .main-title {
+        font-size: 9.5vw;
+        margin-left: 4vw;
+    }
+
+    .second-title {
+        margin-left: 4vw;
+        font-size: 5vw;
+    }
+
+    .nav-item-style {
+        font-size: 3.8vw;
+        /* padding: 0.7vw; */
+        /* margin: 1vw; */
+    }
+
+    .saiba-mais {
+        font-size: 4.5vw;
+    }
+
+    .container-btn {
+        top: 55vh;
+        padding-left: 3vw;
+    }
+
+    .div-content-contato {
+        margin: 1vh;
+        margin-top: 10vh;
+        padding: 3vh;
+    }
+
+    .div-container-flex{
+        display: flex;
+        
+    }
+
+    .h1-servicos {
+        font-size: 7.5vh;
+    }
+
+    .title-servicos {
+        margin-top: 5vh;
+    }
+
+}
